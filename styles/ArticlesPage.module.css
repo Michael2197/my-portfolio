@@ -5,6 +5,29 @@
   width: 100%;
 }
 
+.downloadButton {
+  display: none; /* إخفاء الزر افتراضيًا */
+}
+
+@media (max-width: 768px) {
+  .downloadButton {
+    display: block; /* يظهر فقط في الشاشات الصغيرة */
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+}
+
 .container {
   margin-top: 1.5rem;
   display: grid;
