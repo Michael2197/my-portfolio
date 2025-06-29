@@ -29,7 +29,7 @@
 
 import styles from '@/styles/ArticlesPage.module.css';
 
-const pdfFileUrl = '/Micheal CV.pdf'; // تأكد أن هذا المسار صحيح
+const pdfFileUrl = '/Michael-cv.pdf'; // تأكد أن هذا المسار صحيح
 
 const ArticlesPage = () => {
   return (
@@ -42,7 +42,7 @@ const ArticlesPage = () => {
       </div>
       {/* زر التحميل يظهر فقط على الهاتف */}
       <div className={styles.downloadButton}>
-        <a href={pdfFileUrl} download="Micheal_CV.pdf" className={styles.button}>Download CV</a>
+        <a href={pdfFileUrl} download="Michael-cv.pdf" className={styles.button}>Download CV</a>
       </div>
     </div>
   );
